@@ -1,32 +1,74 @@
 {
   "version": "2.0",
-  "dataset_id": "on004448",
-  "source": "openneuro",
-  "source_id": "ds004448",
+  "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 4",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Seitaro Iwama": {},
+    "Seitaro Iwama": {
+      "orcid": "0000-0002-3485-7438"
+    },
     "Masumi Morishige": {},
     "Yoshikazu Takahashi": {},
     "Ryotaro Hirose": {},
     "Midori Kodama": {},
     "Junichi Ushiba": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004448.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004448",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004448",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-023-02260-6",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A high-density scalp electroencephalogram (EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor activities, designed to support the development and validation of BCI systems. The high-density electrode configuration enables detailed spatial characterization of cortical activity underlying motor control and brain-computer communication.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "sensorimotor rhythm"
+    },
+    {
+      "term": "high-density electroencephalography"
+    },
+    {
+      "term": "BCI"
+    }
+  ],
+  "source_hash": "4c44aa51eb9af393f39dd7aac80b7a5c46918919fda9fc9d708ed9b6a264e786"
 }
