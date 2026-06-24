@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 4",
-  "description": "A high-density scalp electroencephalogram (HD-EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor tasks, designed to support the development and validation of BCI systems. The HD-EEG configuration provides enhanced spatial resolution for investigating cortical dynamics underlying motor control and brain-computer communication.",
+  "description": "A high-density scalp electroencephalogram (HD-EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor tasks, designed to support the development and validation of BCI systems. The HD-EEG recordings provide detailed spatial resolution of cortical activity relevant to motor control and brain-computer interfacing research.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
