@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The BMI-HDEEG dataset 4",
-  "description": "A high-density scalp electroencephalogram (HD-EEG) dataset acquired during sensorimotor rhythm-based brain-computer interface (BCI) tasks. This dataset comprises recordings from multiple subjects performing motor imagery and related sensorimotor tasks, designed to support the development and validation of BCI systems. The HD-EEG recordings provide detailed spatial resolution of cortical activity relevant to motor control and brain-computer interfacing research.",
+  "description": "A high-density scalp EEG dataset recorded during sensorimotor rhythm-based brain-computer interface (BCI) operation. The dataset is intended to support research on BCI performance, sensorimotor rhythm modulation, and EEG signal analysis. It is part of the BMI-HDEEG series and is accompanied by a data descriptor article and sample analysis code.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,31 +20,24 @@
       "term": "EEG"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "high-density EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "sensorimotor rhythm"
     },
     {
-      "term": "high-density electroencephalography"
-    },
-    {
-      "term": "scalp EEG"
+      "term": "motor imagery"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004448",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004448",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -57,6 +50,11 @@
       "identifier": "10.18112/openneuro.ds004448.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004448",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -64,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "41.0 GB (281 files)"
+    "38.16 GB (281 files)"
   ],
   "formats": [
     ".edf",
